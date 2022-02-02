@@ -1,4 +1,4 @@
-package firstJava;
+package firstJava02;
 
 import java.io.*;
 
@@ -16,6 +16,6 @@ public class Q3 {
         System.out.print("Enter Rate:");
         float r = Float.parseFloat(br.readLine());
         float si = (p * t * r) / 100;
-        System.out.print("Simple Interest ="+si);
+        System.out.print("Simple Interest =" + si);
     }
 }

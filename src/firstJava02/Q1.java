@@ -1,5 +1,4 @@
-package firstJava;
-
+package firstJava02;
 import java.util.*;
 
 public class Q1 {
@@ -12,5 +11,6 @@ public class Q1 {
             System.out.println("Even");
         else
             System.out.println("Odd");
+        scan.close();
     }
 }
