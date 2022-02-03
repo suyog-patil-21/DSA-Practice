@@ -2,8 +2,8 @@ package arrays05;
 
 import java.util.Arrays;
 
-// https://leetcode.com/problems/running-sum-of-1d-array/
 public class Q3 {
+    // ? https://leetcode.com/problems/running-sum-of-1d-array/
     public static void main(String[] args) {
         System.out.println("Output : " + Arrays.toString(runningSum(new int[] { 1, 1, 1, 1, 1 })));
     }
