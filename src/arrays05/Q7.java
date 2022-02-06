@@ -27,7 +27,7 @@ public class Q7 {
      * 1 <= nums.length <= 100,
      * 1 <= nums[i] <= 100
      */
-    public static int numIdenticalPairsMethod2(int[] nums) {
+    public int numIdenticalPairsMethod2(int[] nums) {
 
         int result = 0;
         int[] constArray = new int[101];
