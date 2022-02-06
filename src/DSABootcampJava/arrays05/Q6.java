@@ -1,4 +1,4 @@
-package arrays05;
+package DSABootcampJava.arrays05;
 
 import java.util.ArrayList;
 import java.util.List;

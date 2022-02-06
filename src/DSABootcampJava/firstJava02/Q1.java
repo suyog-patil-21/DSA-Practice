@@ -1,4 +1,4 @@
-package firstJava02;
+package DSABootcampJava.firstJava02;
 import java.util.*;
 
 public class Q1 {

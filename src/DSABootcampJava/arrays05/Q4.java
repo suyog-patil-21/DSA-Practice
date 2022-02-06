@@ -1,4 +1,4 @@
-package arrays05;
+package DSABootcampJava.arrays05;
 
 public class Q4 {
     // ? https://leetcode.com/problems/richest-customer-wealth/
