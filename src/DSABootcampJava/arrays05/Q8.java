@@ -3,16 +3,14 @@ package DSABootcampJava.arrays05;
 import java.util.Arrays;
 
 public class Q8 {
-    // ?
-    // https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+    // ? https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
     public static void main(String[] args) {
         int[] inputArray = new int[] { 8, 1, 2, 2, 3 };
         System.out.println("output : " + Arrays.toString((new Q8()).smallerNumbersThanCurrentMethod2(inputArray)));
     }
 
-    // ?Brute force
+    // Brute force
     public int[] smallerNumbersThanCurrentMethod1(int[] nums) {
-
         int[] result = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums.length; j++) {

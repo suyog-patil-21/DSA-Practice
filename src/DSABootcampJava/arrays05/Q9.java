@@ -2,9 +2,8 @@ package DSABootcampJava.arrays05;
 
 import java.util.Arrays;
 
-import javax.sound.sampled.TargetDataLine;
-
 public class Q9 {
+    // ? https://leetcode.com/problems/create-target-array-in-the-given-order/
     public static void main(String[] args) {
         // Both Array of same Length
         int arr[] = new int[] { 0, 1, 2, 3, 4 };
@@ -37,7 +36,6 @@ public class Q9 {
                 }
             }
             target[index[i]] = nums[i];
-
         }
 
         return target;
