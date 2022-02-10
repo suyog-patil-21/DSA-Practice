@@ -3,8 +3,9 @@ package ExtraQuestions;
 import java.util.Arrays;
 
 public class leetCode34 {
-    
-    // ? https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+    // ?
+    // https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
     public static void main(String[] args) {
         int[] nums = { 5, 7, 7, 8, 8, 10 };
         int target = 8;
@@ -16,7 +17,9 @@ public class leetCode34 {
         // start index
         result[0] = search(nums, target, true);
         // end index
-        result[1] = search(nums, target, false);
+        if (result[0] == -1) {
+            result[1] = search(nums, target, false);
+        }
         return result;
     }
 
