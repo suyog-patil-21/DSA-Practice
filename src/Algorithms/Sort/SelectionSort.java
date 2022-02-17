@@ -4,10 +4,18 @@ import java.util.Arrays;
 
 public class SelectionSort {
     public static void main(String[] args) {
-        int[] arr = new int[] { 1, 3,-5, 5, 223, 2, 11, 3, 23 };
+        int[] arr = new int[] { 1, 3, -5, 5, 223, 2, 11, 3, 23 };
         System.out.println("Bubble Sort : " + Arrays.toString(selectionSort(arr)));
     }
 
+    /**
+     * Selection Sort
+     * UNSTABLE Sorting Algorithm
+     * Time Complexity Worst Case O(N^2), Best Case O(N^2)
+     * 
+     * @param arr
+     * @return sorted Array
+     */
     public static int[] selectionSort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             int last = arr.length - 1 - i;// correct possition index

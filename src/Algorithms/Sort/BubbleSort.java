@@ -16,7 +16,7 @@ class BubbleSort {
      * Time Complexity Worst Case O(N^2), Best Case O(N)
      * 
      * @param arr
-     * @return
+     * @return Sotted Array
      */
     public static int[] bubbleSort(int[] arr) {
         boolean swap;
