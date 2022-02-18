@@ -1,6 +1,7 @@
 package DSABootcampJava.arrays05;
 
 public class Q15 {
+    // ? https://leetcode.com/problems/matrix-diagonal-sum/
     public static void main(String[] args) {
         int[][] mat = { { 1, 1, 1, 1 }, { 1, 1, 1, 1 }, { 1, 1, 1, 1 }, { 1, 1, 1, 1 } };
         // = new int[][] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };

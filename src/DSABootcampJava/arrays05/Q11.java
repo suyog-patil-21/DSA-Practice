@@ -3,6 +3,7 @@ package DSABootcampJava.arrays05;
 import java.util.List;
 
 public class Q11 {
+    // ? https://leetcode.com/problems/count-items-matching-a-rule/
     public static void main(String[] args) {
         List<List<String>> items = List.of(List.of("phone", "blue", "pixel"),
                 List.of("computer", "silver", "lenovo"),
