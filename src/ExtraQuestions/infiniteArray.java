@@ -22,6 +22,7 @@ public class infiniteArray {
     static int findResult(int[] arr, int target) {
         int start = 0;
         int end = 1;
+        // * Checking were the element lies and setting start and end 
         while (target > arr[end]) {
             int nextStart = end + 1;
             end = (end - start + 1) * 2;
@@ -40,7 +41,6 @@ public class infiniteArray {
 
             if (target > arr[mid]) {
                 start = mid + 1;
-
             } else {
                 end = mid - 1;
             }
