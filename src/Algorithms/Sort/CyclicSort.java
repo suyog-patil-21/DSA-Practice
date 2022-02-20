@@ -11,9 +11,8 @@ public class CyclicSort {
 
     /**
      * Cyclic Sort
-     * UNSTABLE Sort Algorithm
+     * Duplicate numbers not allowed
      * Time Complexity Worst Case O(N), Best Case O(N)
-     * 
      * 
      * @param arr
      * @return
