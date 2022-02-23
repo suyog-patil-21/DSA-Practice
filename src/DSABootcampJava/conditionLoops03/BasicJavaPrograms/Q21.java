@@ -1,4 +1,4 @@
-package DSABootcampJava.conditionLoops03;
+package DSABootcampJava.conditionLoops03.BasicJavaPrograms;
 
 import java.util.Scanner;
 

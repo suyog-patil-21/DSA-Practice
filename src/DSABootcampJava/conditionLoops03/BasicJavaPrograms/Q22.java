@@ -1,4 +1,4 @@
-package DSABootcampJava.conditionLoops03;
+package DSABootcampJava.conditionLoops03.BasicJavaPrograms;
 
 public class Q22 {
     // ? https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/

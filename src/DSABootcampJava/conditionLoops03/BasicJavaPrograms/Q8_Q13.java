@@ -1,4 +1,4 @@
-package DSABootcampJava.conditionLoops03;
+package DSABootcampJava.conditionLoops03.BasicJavaPrograms;
 
 public class Q8_Q13 {
     public static void main(String[] args) {

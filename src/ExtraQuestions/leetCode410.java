@@ -1,6 +1,7 @@
 package ExtraQuestions;
 
 public class leetCode410 {
+    // ? https://leetcode.com/problems/split-array-largest-sum/
     public static void main(String[] args) {
         int[] nums = { 7, 2, 5, 10, 8 };
         int m = 2;
@@ -11,7 +12,7 @@ public class leetCode410 {
         // * when the array is divided into m(maximum divide) parts max value of the
         // subArray can be this.
         int start = 0;
-        // * whebt the subArray is 1 (minmum divide) part the max value is the sum of
+        // * when the subArray is 1 (minmum divide) part the max value is the sum of
         // the array;
         int end = 0;
         // * finding the range [minRange ...,..,.., maxRange] so that we can applying
