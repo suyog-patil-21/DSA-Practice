@@ -8,11 +8,17 @@ public class Q1 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a Number for Factorial : ");
         int n = sc.nextInt();
+        System.out.println("Factorial : " + factorial(n));
+        sc.close();
+    }
+
+    public static int factorial(int n) {
+        if (n < 0)
+            return 0;
         int factorial = 1;
         for (int i = 2; i <= n; i++) {
             factorial *= i;
         }
-        System.out.println("Factorial : "+factorial);
-        sc.close();
+        return factorial;
     }
 }
