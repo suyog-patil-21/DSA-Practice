@@ -20,6 +20,8 @@ class BinarySearch {
 
             System.out.println("Target present at: " + result);
         }
+        System.out.println("Recursive Binary Search element " + target + " is present at :"
+                + recursiveBinarySearch(arr, target, 0, arr.length - 1));
     }
 
     // Binary search only applicable for Ascending Order or Decending Order
@@ -42,6 +44,21 @@ class BinarySearch {
             }
         }
         return -1;
+    }
+
+    // ? Recursive Method for Binary Search 
+    public static int recursiveBinarySearch(int arr[], int target, int start, int end) {
+        int mid = start + (end - start) / 2;
+        if (start > end) {
+            return -1;
+        }
+        if (arr[mid] == target) {
+            return mid;
+        }
+        if (target < arr[mid]) {
+            return recursiveBinarySearch(arr, target, start, mid - 1);
+        }
+        return recursiveBinarySearch(arr, target, mid + 1, end);
     }
 
     /**
