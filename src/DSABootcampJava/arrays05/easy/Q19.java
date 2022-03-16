@@ -1,4 +1,4 @@
-package DSABootcampJava.arrays05;
+package DSABootcampJava.arrays05.easy;
 
 public class Q19 {
     // ? Q19 https://leetcode.com/problems/maximum-population-year/

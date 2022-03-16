@@ -1,4 +1,4 @@
-package DSABootcampJava.arrays05;
+package DSABootcampJava.arrays05.easy;
 
 public class Q14 {
     // ? https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/

@@ -3,12 +3,13 @@ package DSABootcampJava.functions04;
 public class Q2 {
     public static void main(String[] args) {
         Q2 obj = new Q2();
-        int number = 13;
-        System.out.println("Normal Method Even / ODD: "+obj.isEven(number));
-        System.out.println("or(|) Method Even / ODD: "+obj.isEven(number));
-        System.out.println("And(&) Method Even / ODD: "+obj.isEven(number));
-        System.out.println("Xor(^) Method Even / ODD: "+obj.isEven(number));
-        System.out.println("Checking Last binary digit Method Even / ODD: "+obj.isEven(number));
+        int number = 7;
+        System.out.println("Normal Method Even / ODD: " + obj.isEven(number));
+        System.out.println("or(|) Method Even / ODD: " + obj.isBitwiseOrMethodEven(number));
+        System.out.println("And(&) Method Even / ODD: " + obj.isBitwiseAndMethodEven(number));
+        System.out.println("Xor(^) Method Even / ODD: " + obj.isBitwiseOrMethodEven(number));
+        System.out
+                .println("Checking Last binary digit Method Even / ODD: " + obj.isleastSignificatinMethodEven(number));
     }
 
     public String isEven(int number) {

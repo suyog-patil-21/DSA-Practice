@@ -1,4 +1,4 @@
-package DSABootcampJava.arrays05;
+package DSABootcampJava.arrays05.easy;
 
 public class Q20 {
     // ? https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/

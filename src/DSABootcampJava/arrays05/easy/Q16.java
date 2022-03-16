@@ -1,4 +1,4 @@
-package DSABootcampJava.arrays05;
+package DSABootcampJava.arrays05.easy;
 
 class Q16 {
     // ? https://leetcode.com/problems/find-numbers-with-even-number-of-digits/

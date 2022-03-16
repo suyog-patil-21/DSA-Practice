@@ -1,4 +1,4 @@
-package DSABootcampJava.arrays05;
+package DSABootcampJava.arrays05.easy;
 
 public class Q12 {
     // ? https://leetcode.com/problems/find-the-highest-altitude/

@@ -1,4 +1,4 @@
-package DSABootcampJava.arrays05;
+package DSABootcampJava.arrays05.easy;
 
 public class Q7 {
     // ? https://leetcode.com/problems/number-of-good-pairs/

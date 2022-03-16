@@ -1,4 +1,4 @@
-package DSABootcampJava.arrays05;
+package DSABootcampJava.arrays05.easy;
 
 public class Q15 {
     // ? https://leetcode.com/problems/matrix-diagonal-sum/

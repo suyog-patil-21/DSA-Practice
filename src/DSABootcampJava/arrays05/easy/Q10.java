@@ -1,4 +1,4 @@
-package DSABootcampJava.arrays05;
+package DSABootcampJava.arrays05.easy;
 
 public class Q10 {
     // ? https://leetcode.com/problems/check-if-the-sentence-is-pangram/
