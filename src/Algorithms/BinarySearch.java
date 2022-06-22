@@ -1,6 +1,6 @@
 package Algorithms;
 
-class BinarySearch {
+public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = new int[] { 1, 2, 3, 11, 12, 13, 212 };
         int[] desarr = new int[] { 12, 2, 3, -1, -5, -3 };
@@ -27,7 +27,7 @@ class BinarySearch {
     // Binary search only applicable for Ascending Order or Decending Order
     // depending on the implementation of the user
     // * Ascending Order Binary Search
-    static int binarySearch(int[] arr, int target) {
+    public static int binarySearch(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
@@ -46,7 +46,7 @@ class BinarySearch {
         return -1;
     }
 
-    // ? Recursive Method for Binary Search 
+    // ? Recursive Method for Binary Search
     public static int recursiveBinarySearch(int arr[], int target, int start, int end) {
         int mid = start + (end - start) / 2;
         if (start > end) {
