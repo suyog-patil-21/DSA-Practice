@@ -28,7 +28,7 @@ public class SinglyLinkedList {
         return size;
     }
 
-    public Node find(int value) {
+    private Node find(int value) {
         Node node = head;
         while (node != null) {
             if (node.value == value) {
@@ -66,7 +66,7 @@ public class SinglyLinkedList {
      */
     public void insert(int val, int index) {
         if (index == 0) {
-            insertLast(val);
+            insertFirst(val);
             return;
         }
         if (index >= size) {
@@ -80,6 +80,20 @@ public class SinglyLinkedList {
         Node node = new Node(val, temp.next);
         temp.next = node;
         size += 1;
+    }
+
+    public void insertRec(int value, int index) {
+        head = insertRec(value, index, head);
+    }
+
+    private Node insertRec(int value, int index, Node node) {
+        if (index == 0) {
+            Node temp = new Node(value, node);
+            size += 1;
+            return temp;
+        }
+        node.next = insertRec(value, index - 1, node.next);
+        return node;
     }
 
     public void insertLast(int value) {
@@ -103,6 +117,39 @@ public class SinglyLinkedList {
         }
         size -= 1;
         return val;
+    }
+
+    public boolean hasCycle(Node head) {
+        Node fast = head, slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int lengthOfCycle(Node head) {
+        Node fast = head;
+        Node slow = head;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow) {
+                // calculate the length
+                Node temp = slow;
+                int length = 0;
+                do {
+                    temp = temp.next;
+                    length++;
+                } while (temp != slow);
+                return length;
+            }
+        }
+        return 0;
     }
 
     public int remove(int index) throws Exception {
@@ -139,4 +186,46 @@ public class SinglyLinkedList {
         }
         System.out.println("END");
     }
+
+    /**
+     * Reversal of the List
+     * Using Recursion
+     */
+    public void reverse(Node node) {
+        if (node == head) {
+            head = node;
+            return;
+        }
+        reverse(node.next);
+        tail.next = node;
+        tail = node;
+        tail.next = null;
+    }
+
+    /**
+     * In place reversal of the list
+     * WITHOUT Recursion
+     */
+    public void reverse() {
+        // if(head == null){
+        //     return head;
+        // }
+        if (size < 2) {
+            return;
+        }
+        Node prev = null;
+        Node current = head;
+        Node next = head.next;
+        while(current != null){
+            current.next = prev;
+            prev = current;
+            current = next;
+            if(next != null){
+                next = next.next;
+            }
+        }
+        head = prev;
+        // return prev;
+    }
+
 }
