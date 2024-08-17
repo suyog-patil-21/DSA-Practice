@@ -6,7 +6,7 @@ import java.util.Set;
 
 class Q12{
 
-    // ? https://leetcode.com/problems/intersection-of-two-arrays/description/ 
+    // ? https://leetcode.com/problems/intersection-of-two-arrays/ 
     public static void main(String[] args) {
         // int[] nums1 = new int[]{1,2,2,1}, nums2 =new int[]{2,2}; 
         int[] nums1 = new int[]{4,9,5}, nums2 =new int[]{9,4,9,8,4}; 
