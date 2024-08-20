@@ -5,7 +5,7 @@ public class Q17 {
     public static void main(String[] args) {
         int[] arr = new int[] { 1, 2, 3, 11, 12, 13, 212 };
         int target = 12;
-        System.out.println("Output Method 1" + search(arr, target));
+        System.out.println("Output Method 1:" + search(arr, target));
     }
 
     public static int search(int[] nums, int target) {

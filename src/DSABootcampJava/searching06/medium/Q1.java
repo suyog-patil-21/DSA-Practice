@@ -9,7 +9,7 @@ public class Q1 {
         // int[] nums = { 5, 7, 7, 8, 8, 10 };
         int[] nums = { 5, 8, 8, 8, 8, 10, 23, 34 };
         int target = 8;
-        System.out.println("Output Method 1" + Arrays.toString(searchRange(nums, target)));
+        System.out.println("Output Method 1:" + Arrays.toString(searchRange(nums, target)));
     }
 
     public static int[] searchRange(int[] nums, int target) {
