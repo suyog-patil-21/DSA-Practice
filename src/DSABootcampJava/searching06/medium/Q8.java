@@ -1,7 +1,7 @@
 package DSABootcampJava.searching06.medium;
 
-// ? 
 class Q8 {
+    // ? https://leetcode.com/problems/reach-a-number/
     public static void main(String[] args) {
         // int target = 2;
         int target = 3;
